@@ -41,13 +41,13 @@ Google STUN を利用したくない場合は`--no-google-stun`をオプショ�
 Momo 1:
 
 ```shell
-./momo --no-google-stun　--use-sdl --show-me test
+./momo --no-google-stun --use-sdl --show-me test
 ```
 
 Momo 2:
 
 ```shell
-./momo  --no-google-stun --use-sdl --show-me ayame ws://[Momo 1のIPアドレス]:8080/ws test
+./momo --no-google-stun --use-sdl --show-me ayame ws://[Momo 1のIPアドレス]:8080/ws test
 ```
 
 配信がうまくいくとそれぞれのマシンにお互いの映像と音声が出力されます。  
